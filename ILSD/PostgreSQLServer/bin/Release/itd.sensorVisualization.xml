@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>itd.sensorVisualization</name>
+    </assembly>
+    <members>
+        <member name="T:itd.sensorVisualization.imageNetworkService.AsynchronousStringLogger">
+            <summary>
+            Logs strings into a file. The Logs are stored monthly
+            </summary>
+        </member>
+        <member name="P:itd.sensorVisualization.imageNetworkService.AsynchronousStringLogger.FileDirectory">
+            <summary>
+            Directory in which the files will be stored
+            </summary>
+        </member>
+        <member name="P:itd.sensorVisualization.imageNetworkService.AsynchronousStringLogger.FilePrefix">
+            <summary>
+            Prefix for the Logfile
+            </summary>
+        </member>
+        <member name="F:itd.sensorVisualization.imageNetworkService.AsynchronousStringLogger.logItems">
+            <summary>
+            Items to log
+            </summary>
+        </member>
+        <member name="F:itd.sensorVisualization.imageNetworkService.AsynchronousStringLogger.logAnItem">
+            <summary>
+            Event for waiting for items
+            </summary>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.AsynchronousStringLogger.#ctor(System.String,System.String)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="fileDirectory">The directory in which the files are stored</param>
+            <param name="filePrefix">A prefix or each file</param>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.AsynchronousStringLogger.LoggingTask">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.AsynchronousStringLogger.AddLogItem(System.String)">
+            <summary>
+            Adds an item to log into the file
+            </summary>
+            <param name="logItem"></param>
+        </member>
+        <member name="T:itd.sensorVisualization.imageNetworkService.BadRequestException">
+            <summary>
+            Is an exception, which is thrown at errors in the query
+            </summary>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.BadRequestException.#ctor(System.String)">
+            <summary>
+            default constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:itd.sensorVisualization.imageNetworkService.DataClient">
+            <summary>
+            Client which receives the graphs
+            </summary>
+        </member>
+        <member name="P:itd.sensorVisualization.imageNetworkService.DataClient.HostAddress">
+            <summary>
+            Adresse des Servers
+            </summary>
+        </member>
+        <member name="P:itd.sensorVisualization.imageNetworkService.DataClient.Port">
+            <summary>
+            Port des Servers
+            </summary>
+        </member>
+        <member name="F:itd.sensorVisualization.imageNetworkService.DataClient.client">
+            <summary>
+            client zu Server
+            </summary>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.DataClient.#ctor(System.String,System.Int32)">
+            <summary>
+            Konstruktor für den Client
+            </summary>
+            <param name="hostAddress"></param>
+            <param name="port"></param>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.DataClient.GetImage(itd.common.imageQuering.QueryObjectCollection)">
+            <summary>
+            Fragt das Bild bei einem Server ab
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+            <exception cref="T:System.BadImageFormatException">Is thrown if an error returns from the server</exception>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.DataClient.GetMeasurements(itd.common.imageQuering.QueryObjectCollection)">
+            <summary>
+            Retrieves queries and extracts the sensordata from the server
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.DataClient.SendQuery(itd.common.imageQuering.QueryObjectCollection)">
+            <summary>
+            sends the request to the server
+            </summary>
+            <param name="query"></param>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.DataClient.ReceiveQueryResult(itd.common.imageQuering.ResultDataType)">
+            <summary>
+            receives the answer from the server
+            </summary>
+            <param name="dataType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.DataClient.ConnectTo(System.String,System.Int32)">
+            <summary>
+            verbindet zu dem Server
+            </summary>
+            <param name="hostAddress"></param>
+            <param name="port"></param>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.DataClient.Disconnect">
+            <summary>
+            Schließen der Verbindung zum Server
+            </summary>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.DataClient.CreateQueryByteArray(itd.common.imageQuering.QueryObjectCollection)">
+            <summary>
+            sendet die Anfrage an den Server und gibt die Anfrage zurück
+            </summary>
+            <param name="channels"></param>
+            <returns></returns>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.DataClient.Dispose">
+            <summary>
+            Verwerfen des Objektes
+            </summary>
+        </member>
+        <member name="T:itd.sensorVisualization.imageNetworkService.TaskInformation">
+            <summary>
+            connects a task with its canceellation token
+            </summary>
+        </member>
+        <member name="P:itd.sensorVisualization.imageNetworkService.TaskInformation.RunningTask">
+            <summary>
+            The task which is running
+            </summary>
+        </member>
+        <member name="P:itd.sensorVisualization.imageNetworkService.TaskInformation.Token">
+            <summary>
+            The token for Cencellation
+            </summary>
+        </member>
+        <member name="M:itd.sensorVisualization.imageNetworkService.TaskInformation.#ctor(System.Threading.Tasks.Task,System.Threading.CancellationTokenSource)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="task"></param>
+            <param name="token"></param>
+        </member>
+    </members>
+</doc>

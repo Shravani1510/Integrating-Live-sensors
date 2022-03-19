@@ -1,0 +1,198 @@
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\MyTest2.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\MyTest2.pdb
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\PostgreSQLServer.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\Query_Namespace.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RevitAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RevitAPIUI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\Npgsql.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\ITDPostgreSQLDataConnection.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\itd.common.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\AdpSDKCSharpWrapper.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RevitAPIFoundation.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RevitDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\PersistenceDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\UtilityAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\APIDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\GraphicsAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\ElementGroupDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\EssentialsDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\GeomUtilAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\FamilyDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\DetailDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\CurtainGridFamilyDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\ArrayElemsDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\EnergyAnalysisDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\BuildingSystemsDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\HostObjDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RoomAreaPlanDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\SiteDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\SculptingDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\StructuralDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\InterfaceAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\InterfaceUtilAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RebarDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\StructuralAnalysisDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\MassingDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\AssemblyDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\DPartDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\NumberingDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\PointCloudAccessAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\StairRampDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\AnalysisAppsDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\MaterialDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\IntfATFAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\DBManagedServices.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\AdWindows.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RevitAddInUtility.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\APIInterop.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\UIFramework.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\AddInManager.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RevitUIAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\BuildingSystemsUIAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\DesktopMFCAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\APIUIAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RevitMFCAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\EssentialsUIAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\EnergyAnalysisUtilitiesAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\DetailUIAPI.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\UIFrameworkServices.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\System.ValueTuple.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\Autodesk.UI.Windows.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\Autodesk.UI.Themes.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\PostgreSQLServer.pdb
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\Query_Namespace.pdb
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RevitAPI.xml
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RevitAPIUI.xml
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\Npgsql.pdb
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\Npgsql.xml
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\ITDPostgreSQLDataConnection.pdb
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\itd.common.pdb
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\itd.common.xml
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\RevitAddInUtility.xml
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\System.ValueTuple.xml
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\cs-CZ\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\de-DE\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\en-GB\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\en-US\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\es-ES\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\fr-FR\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\it-IT\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\ja-JP\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\ko-KR\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\pl-PL\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\pt-BR\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\ru-RU\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\zh-CN\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\zh-TW\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\obj\Debug\MyTest2.csprojAssemblyReference.cache
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\obj\Debug\MyTest2.csproj.CoreCompileInputs.cache
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\obj\Debug\MyTest2.csproj.CopyComplete
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\obj\Debug\MyTest2.dll
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\obj\Debug\MyTest2.pdb
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\obj\Debug\MyTest2.CurrentGraph.resources
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\obj\Debug\MyTest2.csproj.GenerateResource.cache
+C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\obj\Debug\MyTest2.HistoryReading.resources
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\MyTest2.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\MyTest2.pdb
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\PostgreSQLServer.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\Query_Namespace.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RevitAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RevitAPIUI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\Npgsql.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\ITDPostgreSQLDataConnection.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\itd.common.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\AdpSDKCSharpWrapper.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RevitAPIFoundation.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RevitDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\PersistenceDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\UtilityAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\APIDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\GraphicsAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\ElementGroupDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\EssentialsDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\GeomUtilAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\FamilyDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\DetailDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\CurtainGridFamilyDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\ArrayElemsDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\EnergyAnalysisDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\BuildingSystemsDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\HostObjDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RoomAreaPlanDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\SiteDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\SculptingDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\StructuralDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\InterfaceAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\InterfaceUtilAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RebarDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\StructuralAnalysisDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\MassingDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\AssemblyDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\DPartDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\NumberingDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\PointCloudAccessAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\StairRampDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\AnalysisAppsDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\MaterialDBAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\IntfATFAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\DBManagedServices.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\AdWindows.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RevitAddInUtility.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\APIInterop.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\UIFramework.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\AddInManager.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RevitUIAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\BuildingSystemsUIAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\DesktopMFCAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\APIUIAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RevitMFCAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\EssentialsUIAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\EnergyAnalysisUtilitiesAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\DetailUIAPI.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\UIFrameworkServices.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\System.ValueTuple.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\Autodesk.UI.Windows.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\Autodesk.UI.Themes.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\PostgreSQLServer.pdb
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\Query_Namespace.pdb
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RevitAPI.xml
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RevitAPIUI.xml
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\Npgsql.pdb
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\Npgsql.xml
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\ITDPostgreSQLDataConnection.pdb
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\itd.common.pdb
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\itd.common.xml
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\RevitAddInUtility.xml
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\System.ValueTuple.xml
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\cs-CZ\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\de-DE\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\en-GB\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\en-US\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\es-ES\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\fr-FR\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\it-IT\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\ja-JP\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\ko-KR\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\pl-PL\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\pt-BR\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\ru-RU\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\zh-CN\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\bin\Debug\zh-TW\AdWindows.resources.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\obj\Debug\MyTest2.csprojAssemblyReference.cache
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\obj\Debug\MyTest2.CurrentGraph.resources
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\obj\Debug\MyTest2.HistoryReading.resources
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\obj\Debug\MyTest2.csproj.GenerateResource.cache
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\obj\Debug\MyTest2.csproj.CoreCompileInputs.cache
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\obj\Debug\MyTest2.csproj.CopyComplete
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\obj\Debug\MyTest2.dll
+C:\Users\shrav_ie3p392\source\repos\Integrating Live Sensor Data In BIM Authoring Tools\MyTest2\obj\Debug\MyTest2.pdb

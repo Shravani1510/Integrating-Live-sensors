@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>itd.common</name>
+    </assembly>
+    <members>
+        <member name="T:itd.common.communication.ClientCommunicator">
+            <summary>
+            Class to abstract the communication
+            </summary>
+        </member>
+        <member name="F:itd.common.communication.ClientCommunicator.clientSocket">
+            <summary>
+            Socket from client
+            </summary>
+        </member>
+        <member name="M:itd.common.communication.ClientCommunicator.#ctor(System.Net.Sockets.Socket)">
+            <summary>
+            default constructor
+            </summary>
+            <param name="socket">Socket for the communication</param>
+        </member>
+        <member name="M:itd.common.communication.ClientCommunicator.Dispose">
+            <summary>
+            Disposes the communicator
+            </summary>
+        </member>
+        <member name="M:itd.common.communication.ClientCommunicator.GetQueryFromClient(itd.common.imageQuering.QueryObjectCollection@)">
+            <summary>
+            Gibt die Abfrageobjekte zurück
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:itd.common.communication.ClientCommunicator.Close">
+            <summary>
+            Closes the communicator, respectively the underlaying socket
+            </summary>
+        </member>
+        <member name="M:itd.common.communication.ClientCommunicator.SendError(System.String)">
+            <summary>
+            Sends an Error to the client
+            </summary>
+            <param name="errorMessage"></param>
+        </member>
+        <member name="M:itd.common.communication.ClientCommunicator.SendContainer(itd.common.imageQuering.DataContainer)">
+            <summary>
+            Sends the container to the socket
+            </summary>
+            <param name="sendObject"></param>
+        </member>
+        <member name="T:itd.common.datarepresentation.Measurement">
+            <summary>
+            Stellt einen messwert dar
+            </summary>
+        </member>
+        <member name="P:itd.common.datarepresentation.Measurement.TimeStamp">
+            <summary>
+            Zeitstempel der Messung
+            </summary>
+        </member>
+        <member name="P:itd.common.datarepresentation.Measurement.Value">
+            <summary>
+            Wert
+            </summary>
+        </member>
+        <member name="M:itd.common.datarepresentation.Measurement.#ctor">
+            <summary>
+            Standardkonstruktor
+            </summary>
+        </member>
+        <member name="M:itd.common.datarepresentation.Measurement.#ctor(System.DateTime,System.Double)">
+            <summary>
+            Konstruktor mit Vorgaben
+            </summary>
+            <param name="timeStamp">Zeitstempel</param>
+            <param name="value">Wert</param>
+        </member>
+        <member name="T:itd.common.datarepresentation.MeasurementChannel">
+            <summary>
+            Repräsentiert einen Kanal mit mehreren Messwerten
+            </summary>
+        </member>
+        <member name="P:itd.common.datarepresentation.MeasurementChannel.DeviceName">
+            <summary>
+            Device of the channel
+            </summary>
+        </member>
+        <member name="P:itd.common.datarepresentation.MeasurementChannel.Id">
+            <summary>
+            Id of the channel
+            </summary>
+        </member>
+        <member name="P:itd.common.datarepresentation.MeasurementChannel.ChannelName">
+            <summary>
+            Name of the channel
+            </summary>
+        </member>
+        <member name="P:itd.common.datarepresentation.MeasurementChannel.Unit">
+            <summary>
+            unit of the channel
+            </summary>
+        </member>
+        <member name="P:itd.common.datarepresentation.MeasurementChannel.Measurements">
+            <summary>
+            Liste der Messwerte
+            </summary>
+        </member>
+        <member name="P:itd.common.datarepresentation.MeasurementChannel.MeasurementArray">
+            <summary>
+            Array for Serialization
+            </summary>
+            <remarks>Don't use it for programmatical changes. See List Measurements</remarks>
+        </member>
+        <member name="M:itd.common.datarepresentation.MeasurementChannel.#ctor">
+            <summary>
+            Standardkonstruktor
+            </summary>
+        </member>
+        <member name="M:itd.common.datarepresentation.MeasurementChannel.#ctor(System.String,System.String,System.String)">
+            <summary>
+            konstruktor mit ID, Name und Einheit
+            </summary>
+            <param name="id"></param>
+            <param name="name"></param>
+            <param name="unit"></param>
+        </member>
+        <member name="M:itd.common.datarepresentation.MeasurementChannel.FromDataReader(System.Data.Common.DbDataReader)">
+            <summary>
+            generates an Instance our of a datareader (SQL)
+            </summary>
+            <remarks>The reader must be at least at the first data row</remarks>
+            <param name="dataReader">Initialized datareader on a row</param>
+            <returns></returns>
+        </member>
+        <member name="T:itd.common.imageQuering.ISensorDataDeliver">
+            <summary>
+            Interface, which delivers sensor data
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.ISensorDataDeliver.GetMeasurements(itd.common.imageQuering.QueryObjectCollection)">
+            <summary>
+            Get all sensor data from a source
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="T:itd.common.imageQuering.SensorDataContainer">
+            <summary>
+            Container for sending pictures
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.SensorDataContainer.Channels">
+            <summary>
+            List of channel
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.SensorDataContainer.ChannelArray">
+            <summary>
+            Channel array for serialization. Don't manipulate manually, instead use the List Channels
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.SensorDataContainer.#cctor">
+            <summary>
+            Static constructor
+            </summary>
+        </member>
+        <member name="T:itd.common.imageQuering.QueryObject">
+            <summary>
+            Object to send a query to the server
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.QueryObject.Sgtin">
+            <summary>
+            Kanalname
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.QueryObject.Period">
+            <summary>
+            Zeitdauer der Daten
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.QueryObject.serializer">
+            <summary>
+            Serialisierer
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.QueryObject.DataArray">
+            <summary>
+            Bytearray das übertragen/empfangen wird
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.QueryObject.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.QueryObject.#ctor(System.String)">
+            <summary>
+            Konstruktor mit Kanalname und Einheit
+            </summary>
+            <param name="channelName"></param>
+        </member>
+        <member name="M:itd.common.imageQuering.QueryObject.Serialize(System.IO.Stream)">
+            <summary>
+            Serialisieren des Objektes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:itd.common.imageQuering.QueryObject.Deserialize(System.IO.Stream)">
+            <summary>
+            erzeugt ein Objekt aus dem Stream
+            </summary>
+            <param name="stream"></param>
+            <returns></returns>
+        </member>
+        <member name="M:itd.common.imageQuering.QueryObject.Deserialize(System.IO.TextReader)">
+            <summary>
+            Erzeugt ein Objekt aus dem Textreader
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="T:itd.common.imageQuering.IImageCreator">
+            <summary>
+            Interface for Graph creation
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.IImageCreator.GetImage(itd.common.imageQuering.QueryObjectCollection)">
+            <summary>
+            Generate bytes for the images
+            </summary>
+            <param name="channels"></param>
+            <returns></returns>
+        </member>
+        <member name="T:itd.common.imageQuering.ImageContainer">
+            <summary>
+            Container for sending pictures
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.ImageContainer.BinaryImageData">
+            <summary>
+            binary data from a picture
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.ImageContainer.#cctor">
+            <summary>
+            Static constructor
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.ImageContainer.ExtractImage">
+            <summary>
+            entnimmt aus dem Massageobject das Image
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:itd.common.imageQuering.ISQLQuerying">
+            <summary>
+            Interface for generating SQL queries
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.ISQLQuerying.ReadingQuery(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Returns the SQL-Statement for quering the default 
+            readings basing on a sgtin of a device
+            </summary>
+            <param name="sgtin"></param>
+            <returns></returns>
+        </member>
+        <member name="T:itd.common.imageQuering.PostgreSQLParameters">
+            <summary>
+            Dataobject for PostgreSQL parameters
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.PostgreSQLParameters.serializer">
+            <summary>
+            Serializer
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.PostgreSQLParameters.PostgreSQLHost">
+            <summary>
+            Host address for the PostgreSQL
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.PostgreSQLParameters.postgreSQLHost">
+            <summary>
+            internal Representation of the host address
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.PostgreSQLParameters.PostgreSQLPort">
+            <summary>
+            Port for the PostgreSQL
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.PostgreSQLParameters.postgreSqlPort">
+            <summary>
+            internal Representation of the port
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.PostgreSQLParameters.UserName">
+            <summary>
+            Username for the PostgreSQL
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.PostgreSQLParameters.userName">
+            <summary>
+            internal Representation of the user name
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.PostgreSQLParameters.Password">
+            <summary>
+            Password for the PostgreSQL (encrypted)
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.PostgreSQLParameters.encryptedPassword">
+            <summary>
+            internal representation of the password
+            </summary>
+        </member>
+        <member name="E:itd.common.imageQuering.PostgreSQLParameters.PropertyChanged">
+            <summary>
+            Implementation of INotifyPropertyChanged
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.PostgreSQLParameters.Database">
+            <summary>
+            Database with the logging Data
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.PostgreSQLParameters.database">
+            <summary>
+            internal representation of the database
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.PostgreSQLParameters.Serialize(System.IO.Stream)">
+            <summary>
+            Serializes the Data in this object into a stream
+            </summary>
+            <param name="outputStream"></param>
+        </member>
+        <member name="M:itd.common.imageQuering.PostgreSQLParameters.Serialize(System.String)">
+            <summary>
+            Serializes the Data in this object into a stream
+            </summary>
+            <param name="outputFilePath">Path to the output file</param>
+        </member>
+        <member name="M:itd.common.imageQuering.PostgreSQLParameters.Deserialize(System.IO.Stream)">
+            <summary>
+            Generates an object from a stream
+            </summary>
+            <param name="inputStream"></param>
+            <returns></returns>
+        </member>
+        <member name="M:itd.common.imageQuering.PostgreSQLParameters.Deserialize(System.String)">
+            <summary>
+            Generates an object from a stream
+            </summary>
+            <param name="inputFile">Path to the file for reading</param>
+            <returns></returns>
+        </member>
+        <member name="M:itd.common.imageQuering.PostgreSQLParameters.ConvertStringToBase64(System.String)">
+            <summary>
+            Converts a string to base 64
+            </summary>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:itd.common.imageQuering.PostgreSQLParameters.ConvertBase64ToString(System.String)">
+            <summary>
+            Converts base 64 to a string
+            </summary>
+            <param name="base64">Base 64 string</param>
+            <returns></returns>
+        </member>
+        <member name="M:itd.common.imageQuering.PostgreSQLParameters.OnPropertyChanged(System.String)">
+            <summary>
+            Fires the PropertyChanged event
+            </summary>
+        </member>
+        <member name="T:itd.common.imageQuering.QueryObjectCollection">
+            <summary>
+            Collection of the query objects
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.QueryObjectCollection.ResultDataType">
+            <summary>
+            Defines the desired result Data
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.QueryObjectCollection.QueryObjects">
+            <summary>
+            List with the query objects
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.QueryObjectCollection.serializer">
+            <summary>
+            internal serializer
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.QueryObjectCollection.QueryObjectArray">
+            <summary>
+            Array of the query objects for serialization
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.QueryObjectCollection.Deserialize(System.IO.TextReader)">
+            <summary>
+            Deserializes an instance from a Stringreader
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.QueryObjectCollection.Serialize(System.IO.TextWriter)">
+            <summary>
+            Serilizes an instance to a textwriter
+            </summary>
+            <param name="writer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:itd.common.imageQuering.QueryObjectCollection.Serialize(System.Xml.XmlWriter)">
+            <summary>
+            Serializes this object into the XML writer
+            </summary>
+            <param name="writer"></param>
+            <returns></returns>
+        </member>
+        <member name="T:itd.common.imageQuering.ResultDataType">
+            <summary>
+            encodes the data type of the query answer
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.ResultDataType.Graph">
+            <summary>
+            returns the graph for displaying
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.ResultDataType.NumericalData">
+            <summary>
+            returns the numerical data
+            </summary>
+        </member>
+        <member name="T:itd.common.imageQuering.DataContainer">
+            <summary>
+            Sensordatacontainer for the results to send over ethernet
+            </summary>
+        </member>
+        <member name="F:itd.common.imageQuering.DataContainer.serializer">
+            <summary>
+            Serializer for the underlayed objects
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.DataContainer.QuerySucceeded">
+            <summary>
+            shows if the query succeeded
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.DataContainer.Error">
+            <summary>
+            Show an error if any occured
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.DataContainer.Serialize(System.IO.Stream)">
+            <summary>
+            Serilizes the Object into a stream
+            </summary>
+            <param name="stream"></param>
+        </member>
+        <member name="M:itd.common.imageQuering.DataContainer.Deserialize(System.IO.Stream)">
+            <summary>
+            Generates an ImageContainer out of a stream
+            </summary>
+            <param name="stream"></param>
+            <returns></returns>
+        </member>
+        <member name="M:itd.common.imageQuering.DataContainer.Deserialize(System.IO.TextReader)">
+            <summary>
+            Erzeugt ein Objekt aus dem Textreader
+            </summary>
+            <param name="reader"></param>
+            <returns></returns>
+        </member>
+        <member name="P:itd.common.imageQuering.TimePeriod.StartTime">
+            <summary>
+            Startzeit der Dauer
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.TimePeriod.EndTime">
+            <summary>
+            Endzeit der Dauer
+            </summary>
+        </member>
+        <member name="P:itd.common.imageQuering.TimePeriod.Duration">
+            <summary>
+            Dauer zwischen Start- und Endzeit
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.TimePeriod.#ctor">
+            <summary>
+            Standardkonstruktor
+            </summary>
+        </member>
+        <member name="M:itd.common.imageQuering.TimePeriod.#ctor(System.DateTime,System.DateTime)">
+            <summary>
+            Konstruktor der Werte direkt übernimmt
+            </summary>
+            <param name="startTime"></param>
+            <param name="endTime"></param>
+        </member>
+        <member name="T:itd.common.interaction.ICommandExecuter">
+            <summary>
+            Interface to send commands to a server
+            </summary>
+        </member>
+        <member name="M:itd.common.interaction.ICommandExecuter.ExecuteCommand(System.String,System.Net.IPAddress,System.Int32)">
+            <summary>
+            Send a ommand to a server
+            </summary>
+            <param name="command">Command, that shall be send</param>
+            <param name="iPAddress">Targe IP for the command</param>
+            <param name="port">Target port at the server</param>
+        </member>
+        <member name="M:itd.common.interaction.ICommandExecuter.QueryCommand(System.String,System.Net.IPAddress,System.Int32)">
+            <summary>
+            Send a command to a server and receive an answer
+            </summary>
+            <param name="command">Command, that shall be send</param>
+            <param name="iPAddress">Targe IP for the command</param>
+            <param name="port">Target port at the server</param>
+            <returns>The result as a byte array</returns>
+        </member>
+        <member name="T:itd.common.interaction.ISetActuator">
+            <summary>
+            Set the Value of an Actuator
+            </summary>
+        </member>
+        <member name="M:itd.common.interaction.ISetActuator.SetSetPointViaSGTIN(System.String,System.Double)">
+            <summary>
+            Set a new setpoint of an actuator by using the sgtin
+            </summary>
+            <param name="sgtin"></param>
+            <param name="setPoint"></param>
+        </member>
+        <member name="M:itd.common.interaction.ISetActuator.SetSetPointViaName(System.String,System.Double)">
+            <summary>
+            by using the name of the actuator
+            </summary>
+            <param name="actuatorName">Name of the actuator</param>
+            <param name="setPoint">new setpoint</param>
+        </member>
+    </members>
+</doc>

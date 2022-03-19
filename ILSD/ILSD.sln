@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgreSQLServer", "PostgreSQLServer\PostgreSQLServer.csproj", "{9ADD6225-DF03-49BA-A468-A6900BB4E818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query_Namespace", "Query_Namespace\Query_Namespace.csproj", "{4C5A07D4-376D-4A9B-A8A3-514EE29E2E2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerData", "ServerData", "{38C68905-A3F4-41E2-9E0E-DA039D9BA23B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Device_Query_Connection", "Device_Query_Connection", "{845B5230-5759-41ED-A237-15A63A56331F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD870701-4000-40D6-8E71-DD34A6887BA0}"
+	ProjectSection(SolutionItems) = preProject
+		Classesinformation.txt = Classesinformation.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "visualization2", "visualization2", "{F4BF54D4-5DBE-4486-AD17-2A00FEF02D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTest2", "MyTest2\MyTest2.csproj", "{5BA7A7E2-1C36-4138-BBF9-819A16A95E09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ADD6225-DF03-49BA-A468-A6900BB4E818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADD6225-DF03-49BA-A468-A6900BB4E818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADD6225-DF03-49BA-A468-A6900BB4E818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADD6225-DF03-49BA-A468-A6900BB4E818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5A07D4-376D-4A9B-A8A3-514EE29E2E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5A07D4-376D-4A9B-A8A3-514EE29E2E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5A07D4-376D-4A9B-A8A3-514EE29E2E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5A07D4-376D-4A9B-A8A3-514EE29E2E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA7A7E2-1C36-4138-BBF9-819A16A95E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA7A7E2-1C36-4138-BBF9-819A16A95E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA7A7E2-1C36-4138-BBF9-819A16A95E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA7A7E2-1C36-4138-BBF9-819A16A95E09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9ADD6225-DF03-49BA-A468-A6900BB4E818} = {38C68905-A3F4-41E2-9E0E-DA039D9BA23B}
+		{4C5A07D4-376D-4A9B-A8A3-514EE29E2E2E} = {845B5230-5759-41ED-A237-15A63A56331F}
+		{5BA7A7E2-1C36-4138-BBF9-819A16A95E09} = {F4BF54D4-5DBE-4486-AD17-2A00FEF02D5E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DD71093-E440-4065-905D-4016B0A4D339}
+	EndGlobalSection
+EndGlobal

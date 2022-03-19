@@ -1,0 +1,26 @@
+
+ILSD -Integrating Live Sensor Data
+
+References to be added:
+	 From ITD utilities project- Npgsql, ITDPostgreSQLDataConnection, itd.common, itd.sensorVisualization .dll files
+	 RevitAPI, RevitAPIUI .dll files
+
+Project Files:
+Parameter.cs, Connection.cs - PostgreSQLServer Data & Connection
+
+DevicePlacing.cs, PreparingConnection.cs, Query.cs --
+
+PreparingConnection - Gets Readings from Current table, History table 
+DevicePlacing- gives Sensor device information
+Query- Queries for Reading tables from PostgreSQL Database
+
+ForCurrent.cs, ForHistory.cs, CurrentGraph.cs, HistoryReadings.cs--
+
+ CurrentGraph - Gets Graphs in Revit
+ ForCurrent, ForHistory - Retrieves and loads the Readings into Revit model for 6 rooms
+ HistoryReadings -use Form to load history Reading into Revit model.
+
+ Additional Task:
+ EightRoomsReadings.cs- Retrieves and loads the Readings into Revit model for 8 rooms
+ 
+<<<  startup Project MyTest2 >>>

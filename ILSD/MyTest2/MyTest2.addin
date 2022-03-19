@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>MyTest2</Name>
+    <FullClassName>MyTest2.ForCurrent</FullClassName>
+    <Text> ClickhereTogetliveReadings2 </Text>
+    <Description> SelectElementID Description</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <Assembly>
+      C:\Users\shrav_ie3p392\source\repos\ILSD\MyTest2\bin\Debug\MyTest2.dll
+    </Assembly>
+    <AddInId>764da60e-2429-41db-b381-d120bcd3f147</AddInId>
+    <VendorId>AECTechy</VendorId>
+    <VendorDescription>AECTechy</VendorDescription>
+  </AddIn>
+</RevitAddIns>
