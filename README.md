@@ -4,7 +4,7 @@ Project Name - ILSD (Integrating Live Sensor Data in BIM authoring tools)
 Application: Retrieves sensor Data
 Revit Platform: GenericModel
 Revit Version: 2021
-Programming Language: C# .Net Framework 4.8
+Programming Language: C# .Net Framework 4.8, OOP, JAVA
 Type: ExternalCommand
 
 <<--Summary-->> 
